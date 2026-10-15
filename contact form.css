@@ -1,0 +1,102 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    margin: 20px;
+}
+
+.container__title {
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.section-1 {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.section-1__title {
+    font-size: 40px;
+    font-size: 50px;
+    color: orange;
+}
+
+.section-1__role {
+    font-size: 30px;
+    color: yellow;
+}
+
+.section-1__home {
+    color: greenyellow;
+    display: inline-block;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-decoration-line: none;
+}
+
+.section-1__home:hover {
+    color: red;
+    background-color: greenyellow;
+}
+
+
+.section-3 {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.section-3__social-media {
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-radius: 10%;
+}
+
+.section-3__social-media a {
+    color: skyblue;
+}
+
+.section-2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-2__input-name,
+.section-2__input-email,
+.section-2__text {
+    padding-bottom: 20px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.section-2__desc{
+    font-weight: bold;
+}
+
+.section-2__text{
+    border: solid black 1px;
+}
+
+.section-2__submit{
+    color: rgb(153, 255, 0);
+    background-color: orangered;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;
+}
+
+.container {
+  padding: 20px;
+}
+
+.section-1 {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.section-1__title {
+  font-size: 50px;
+  color: orange;
+}
+
+.section-1__role {
+  font-size: 20px;
+  color: yellow;
+  padding-bottom: 10px;
+}
+
+.section-1__contact {
+  display: inline-block;
+  color: greenyellow;
+  text-decoration: none;
+  background-color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.section-1__contact:hover {
+  color: red;
+  background-color: greenyellow;
+}
+
+.section-2,
+.section-3,
+.section-4,
+.section-5 {
+  padding-top: 20px;
+}
+
+.section-2__desc,
+.section-3__desc,
+.section-4__desc1,
+.section-4__desc2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-5 {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+  border-top: solid white 10px;
+}
+
+.section-5 a {
+  color: skyblue;
+}
+
+.section-5 h4 {
+  font-weight: 100;
+}
+
+.section-3 li,
+.section-4 li {
+  list-style-type: none;
+}
+
+.section-3 {
+  display: inline-block;
+  color: black;
+  background-color: rgb(104, 58, 231);
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px;
+  vertical-align: top;
+}
+
+.section-4 {
+  display: inline-block;
+  height: 200px;
+  color: black;
+  background-color: rgb(255, 123, 0);
+  border-radius: 10px;
+  padding: 20px;
+  vertical-align: top;
+}
