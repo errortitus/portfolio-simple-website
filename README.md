@@ -4,6 +4,7 @@ A clean personal portfolio and contact page website built using **HTML5** and **
 
 ---
 
+**Website Link**: https://errortitus.github.io/portfolio-simple-website/
 ## Features
 
 * **Portfolio Section**: Introduces background information, personal interests, and key project highlights.
